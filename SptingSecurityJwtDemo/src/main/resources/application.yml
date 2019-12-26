@@ -1,16 +1,15 @@
 server:
   port: 8081
-spring.security
 
 jwt:
-  tokenHeader: Authorization #JWT存储的请求头
-  secret: jwtsecret #JWT加解密使用的密钥
-  expiration: 60000 #JWT的超期限时间(60*60*24)
-  tokenHead: Bearer  #JWT负载中拿到开头
+  tokenHeader: Authorization
+  secret: jwtsecret
+  expiration: 6000
+  tokenHead: Bearer
 
 secure:
   ignored:
-    urls: #安全路径白名单
+    urls:
       - /swagger-ui.html
       - /swagger-resources/**
       - /swagger/**

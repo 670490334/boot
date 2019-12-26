@@ -3,6 +3,7 @@ package com.rabbit.chshady.securityandjwt.springsecurityjwt.entity;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -10,7 +11,7 @@ import java.util.Date;
  * @Date 2019/12/25 17:58
  */
 @Data
-public class UmsAdmin {
+public class UmsAdmin implements Serializable {
     private Long id;
 
     private String username;

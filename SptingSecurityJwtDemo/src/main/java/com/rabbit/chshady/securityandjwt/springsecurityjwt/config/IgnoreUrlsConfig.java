@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * @Author 廖凡
- * @Date 2019/12/25 18:07
+ *  * @Date 2019/12/25 18:07
  */
 @Data
 @ConfigurationProperties(prefix = "secure.ignored")
